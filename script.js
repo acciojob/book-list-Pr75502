@@ -4,7 +4,7 @@ let title=document.querySelector("#title")
 let author=document.querySelector("#author")
 let isbn=document.querySelector("#isbn")
 let btn=document.querySelector("#submit")
-let tbody=document.querySelector("#tbody")
+let tbody=document.querySelector("#book-list")
 
 btn.addEventListener("click", function(e){
 	e.preventDefault()
